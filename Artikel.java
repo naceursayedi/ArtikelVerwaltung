@@ -2,8 +2,7 @@
  * Modelliert Informationen zu einem Artikel, der von
  * einer Firma verkauft wird.
  * 
- * @author David J. Barnes und Michael Kölling
- * @version 2008.03.30
+
  * @author Naceur Sayedi 
  * @neuer Version 18.11.2021 von Naceur Sayedi
  */
