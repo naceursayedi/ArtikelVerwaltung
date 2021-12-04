@@ -146,14 +146,19 @@ public class Bestandsverwalter
      */
     public void alleArtikelAnzeigen()
     {
-
-       // Iterator<Artikel> it = lager.iterator();
-       // Artikel ar;
-       // while(it.hasNext()){
-       //     ar = it.next();
-            System.out.println(lager);
-        //}
-
+    
+    Iterator<String> itL =lager.keySet().iterator();
+    while(itL.hasNext()){
+   
+   
+        Category=lager.get(itL.next());
+        Artikel ar;
+        Iterator<Artikel> itC =Category.values().iterator();
+        while(itC.hasNext()){
+        ar=itC.next();
+        System.out.println(ar.toString());
+    }
+    }
     }
     /**
      * Verkaufe ein Exemplar eines bestimmten Artikels.
@@ -183,21 +188,21 @@ public class Bestandsverwalter
      */
     public void findeArtikel(String name,String category){
 
-    	Category = lager.get(category);
-    	
+        Category = lager.get(category);
+        
         Iterator hmIterator = Category.entrySet().iterator();
   
         while (hmIterator.hasNext()) {
             HashMap.Entry mapElement = (HashMap.Entry)hmIterator.next();
             Artikel artikel = ((Artikel)mapElement.getValue());
             if(artikel.gibName().equals(name)) {
-            	System.out.println(artikel);
-            	break;
+                System.out.println(artikel);
+                break;
             }
         }
         
         
-    	
+        
         
 
     }

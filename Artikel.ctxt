@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Artikel
-comment0.text=\r\n\ Modelliert\ Informationen\ zu\ einem\ Artikel,\ der\ von\r\n\ einer\ Firma\ verkauft\ wird.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ und\ Michael\ K\u00F6lling\r\n\ @version\ 2008.03.30\r\n\ @author\ Naceur\ Sayedi\ \r\n\ @neuer\ Version\ 18.11.2021\ von\ Naceur\ Sayedi\r\n
+comment0.text=\r\n\ Modelliert\ Informationen\ zu\ einem\ Artikel,\ der\ von\r\n\ einer\ Firma\ verkauft\ wird.\r\n\ \r\n\r\n\ @author\ Naceur\ Sayedi\ \r\n\ @neuer\ Version\ 18.11.2021\ von\ Naceur\ Sayedi\r\n
 comment1.params=nummer\ name\ category
 comment1.target=Artikel(int,\ java.lang.String,\ java.lang.String)
 comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Artikel.\r\n\ Der\ Anfangsbestand\ ist\ Null.\r\n\ @param\ nummer\ Die\ Artikelnummer\ des\ Artikels.\r\n\ @param\ name\ Der\ Name\ des\ Artikels.\r\n

@@ -68,7 +68,8 @@ public class Artikel
     public String toString()
     {
         return nummer + ": " +
-        name +
+        name + 
+        " Kategorie: " + category +
         " Lagerbestand: " + bestand;
     }
 
